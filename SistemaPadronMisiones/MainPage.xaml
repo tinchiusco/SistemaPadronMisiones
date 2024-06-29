@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SistemaPadronMisiones.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                Source="misiones_logo.png"
+                HeightRequest="250"
+                Aspect="AspectFit"
+                SemanticProperties.Description="Mapa de la provincia de Misiones" />
+            
+
+            <Label
+                Text="Padron Misiones"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Ingrese DNI o nombre de la persona a buscar"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Ingrese DNI o nombre de la persona a buscar" />
+
+
+            <Button
+             x:Name="SearchByNameBtn"
+             Text="Por nombre y apellido" 
+             SemanticProperties.Hint="Buscar por nombre y apellido"
+             Clicked="OnClickShowNameField"
+               
+             HorizontalOptions="Fill" />
+
+            <Entry x:Name="NameField" Placeholder="Nombre y Apellido" IsVisible="Collapse" TextChanged="NameField_TextChanged"/>
+
+            <Button
+             x:Name="SearchByDNIBtn"
+             Text="Por DNI" 
+             SemanticProperties.Hint="Buscar por numero de dni"
+                Clicked="OnClickShowDNIField"
+                HorizontalOptions="Fill" />
+
+            <Entry x:Name="DNIField" Placeholder="DNI" IsVisible="Collapse" TextChanged="DNIField_TextChanged"/>
+
+            <Button
+                x:Name="SearchBtn"
+                Text="Buscar" 
+                SemanticProperties.Hint="Buscar"
+                Clicked="OnClickSearch"
+                HorizontalOptions="Fill"
+                IsEnabled="False"/>
+
+            <Grid x:Name="PersonGrid" IsVisible="False" Padding="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Label Text="DNI:" Grid.Row="0" Grid.Column="0" />
+                <Label x:Name="DniLabel" Grid.Row="0" Grid.Column="1" />
+
+                <Label Text="Año de Nacimiento:" Grid.Row="1" Grid.Column="0" />
+                <Label x:Name="AnoNacimientoLabel" Grid.Row="1" Grid.Column="1" />
+
+                <Label Text="Apellido:" Grid.Row="2" Grid.Column="0" />
+                <Label x:Name="ApellidoLabel" Grid.Row="2" Grid.Column="1" />
+
+                <Label Text="Nombre:" Grid.Row="3" Grid.Column="0" />
+                <Label x:Name="NombreLabel" Grid.Row="3" Grid.Column="1" />
+
+                <Label Text="Dirección:" Grid.Row="4" Grid.Column="0" />
+                <Label x:Name="DireccionLabel" Grid.Row="4" Grid.Column="1" />
+
+                <Label Text="Tipo Doc:" Grid.Row="5" Grid.Column="0" />
+                <Label x:Name="TipoDocLabel" Grid.Row="5" Grid.Column="1" />
+
+                <Label Text="Sección:" Grid.Row="6" Grid.Column="0" />
+                <Label x:Name="SeccionLabel" Grid.Row="6" Grid.Column="1" />
+
+                <Label Text="Circuito:" Grid.Row="7" Grid.Column="0" />
+                <Label x:Name="CircuitoLabel" Grid.Row="7" Grid.Column="1" />
+
+                <Label Text="Mesa:" Grid.Row="8" Grid.Column="0" />
+                <Label x:Name="MesaLabel" Grid.Row="8" Grid.Column="1" />
+
+                <Label Text="Orden:" Grid.Row="9" Grid.Column="0" />
+                <Label x:Name="OrdenLabel" Grid.Row="9" Grid.Column="1" />
+
+                <Label Text="Escuela:" Grid.Row="10" Grid.Column="0" />
+                <Label x:Name="EscuelaLabel" Grid.Row="10" Grid.Column="1" />
+            </Grid>
+
+            <Label
+    Text="Aplicacion desarrollada por Martin Rivas Anaya&#x0a;Telefono: +54-9-3751-679948&#x0a;Email: webfullstack.martin@gmail.com" 
+    Style="{StaticResource SubHeadline}"
+    SemanticProperties.HeadingLevel="Level3"
+    SemanticProperties.Description="Aplicacion desarrollada por Martin Rivas Anaya" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
