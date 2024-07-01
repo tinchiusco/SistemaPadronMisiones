@@ -38,29 +38,53 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
+	  <AndroidPackageFormat>apk</AndroidPackageFormat>
+	  <AndroidUseAapt2>True</AndroidUseAapt2>
+	  <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+	</PropertyGroup>
+
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\AppIcon\appicon.png" ForegroundFile="Resources\AppIcon\appicon.png" Color="#512BD4" />
+		<MauiIcon Include="Resources\Splash\misiones_ent.png">
+		  <Color>#512BD4</Color>
+		  <ForegroundFile>Resources\AppIcon\appicon.png</ForegroundFile>
+		</MauiIcon>
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+		
+
+		<MauiSplash Include ="Resources\Splash\misiones_ent.png ">
+			<background-color>#FFFFFF</background-color>
+			<duration>3000</duration>
+			<!-- Duración en milisegundos -->
+		</MauiSplash>
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
+		<MauiImage Update="Resources\Images\misiones_logo.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
+		<None Remove="Resources\Raw\AboutAssets.txt" />
+		<None Remove="Resources\Splash\misiones_ent.png" />
+		<EmbeddedResource Include="Resources\Raw\AboutAssets.txt" />
 
 		<!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
-		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
-	</ItemGroup>
+		<EmbeddedResource Include="Resources\Raw\BDPadron.json" />
 
-	<ItemGroup>
+		<!--DataBase emulator in Json-->
+	
 		<PackageReference Include="EPPlus" Version="7.2.0" />
+		<PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
+
+	
+
 
 </Project>

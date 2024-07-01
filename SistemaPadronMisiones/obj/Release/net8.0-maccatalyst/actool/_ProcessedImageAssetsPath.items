@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon29x29@3x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon40x40@3x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon60x60@3x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\Contents.json" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\misiones_ent20x20@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\misiones_ent20x20@3x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\misiones_ent29x29@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\misiones_ent29x29@3x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\misiones_ent40x40@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\misiones_ent40x40@3x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\misiones_ent60x60@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\misiones_ent60x60@3x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\misiones_ent76x76@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\misiones_ent83.5x83.5@2x.png" />
+    <ImageAsset Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Assets.xcassets\misiones_ent.appiconset\misiones_entItunesArtwork.png" />
+  </ItemGroup>
+</Project>

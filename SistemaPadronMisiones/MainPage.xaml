@@ -4,9 +4,19 @@
              x:Class="SistemaPadronMisiones.MainPage">
 
     <ScrollView>
+        
+        
+
         <VerticalStackLayout
             Padding="30,0"
-            Spacing="25">
+            Spacing="50">
+
+            <Label x:Name="changingTextLabel"
+   
+Style="{StaticResource SubHeadline2}"
+HorizontalOptions="Center"
+VerticalOptions="Center" />
+
             <Image
                 Source="misiones_logo.png"
                 HeightRequest="250"
@@ -15,18 +25,18 @@
             
 
             <Label
-                Text="Padron Misiones"
+                Text="Padrón Misiones"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
 
             <Label
-                Text="Ingrese DNI o nombre de la persona a buscar"
+                Text="Ingrese DNI de la persona a buscar, sin puntos"
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Ingrese DNI o nombre de la persona a buscar" />
+                SemanticProperties.Description="Ingrese DNI de la persona a buscar" />
 
 
-            <Button
+            <!--<Button
              x:Name="SearchByNameBtn"
              Text="Por nombre y apellido" 
              SemanticProperties.Hint="Buscar por nombre y apellido"
@@ -34,7 +44,7 @@
                
              HorizontalOptions="Fill" />
 
-            <Entry x:Name="NameField" Placeholder="Nombre y Apellido" IsVisible="Collapse" TextChanged="NameField_TextChanged"/>
+            <Entry x:Name="NameField" Placeholder="Nombre y Apellido" IsVisible="Collapse" TextChanged="NameField_TextChanged"/>-->
 
             <Button
              x:Name="SearchByDNIBtn"
@@ -76,7 +86,7 @@
                 <Label Text="DNI:" Grid.Row="0" Grid.Column="0" />
                 <Label x:Name="DniLabel" Grid.Row="0" Grid.Column="1" />
 
-                <Label Text="Año de Nacimiento:" Grid.Row="1" Grid.Column="0" />
+                <Label Text="Fecha Nac:" Grid.Row="1" Grid.Column="0" />
                 <Label x:Name="AnoNacimientoLabel" Grid.Row="1" Grid.Column="1" />
 
                 <Label Text="Apellido:" Grid.Row="2" Grid.Column="0" />
@@ -107,9 +117,18 @@
                 <Label x:Name="EscuelaLabel" Grid.Row="10" Grid.Column="1" />
             </Grid>
 
-            <Label
-    Text="Aplicacion desarrollada por Martin Rivas Anaya&#x0a;Telefono: +54-9-3751-679948&#x0a;Email: webfullstack.martin@gmail.com" 
+            <Label x:Name="PersonNotFound"
+    Text="DNI o nombre no encontrado, verificar con el Juez de Paz de la jurisdiccion"
+                IsVisible="False"
     Style="{StaticResource SubHeadline}"
+                   FontSize="14"
+    SemanticProperties.HeadingLevel="Level2"
+    SemanticProperties.Description="DNI o nombre no encontrado, verificar con el Juez de Paz de la jurisdiccion" />
+
+            <Label
+    Text="Aplicación desarrollada por Martin.Dev&#x0a;Email: webfullstack.martin@gmail.com" 
+                
+    Style="{StaticResource SubHeadline2}"
     SemanticProperties.HeadingLevel="Level3"
     SemanticProperties.Description="Aplicacion desarrollada por Martin Rivas Anaya" />
         </VerticalStackLayout>
