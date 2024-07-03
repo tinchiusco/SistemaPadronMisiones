@@ -1,6 +1,6 @@
 ﻿
-using SistemaPadronMisiones.Entities;
 using SistemaPadronMisiones.DataBussiness;
+using SistemaPadronMisiones.Entities;
 
 namespace SistemaPadronMisiones
 {
@@ -57,109 +57,106 @@ namespace SistemaPadronMisiones
 
         }
 
-    
-
-
-    private void OnClickShowNameField(object sender, EventArgs e)
-    {
-
-
-        //if (NameField.IsVisible == true)
+        //private void OnClickShowNameField(object sender, EventArgs e)
         //{
-        //    //NameField.IsVisible = false;
-        //    DNIField.IsVisible = false;
+
+
+        //    //if (NameField.IsVisible == true)
+        //    //{
+        //    //    //NameField.IsVisible = false;
+        //    //    DNIField.IsVisible = false;
+
+        //    //}
+        //    //else
+        //    //{
+        //    //    //NameField.IsVisible = true;
+        //    //    DNIField.IsVisible = false;
+        //    //}
+
 
         //}
-        //else
-        //{
-        //    //NameField.IsVisible = true;
-        //    DNIField.IsVisible = false;
-        //}
-
-
-    }
-    private void OnClickShowDNIField(object sender, EventArgs e)
-    {
-        if (DNIField.IsVisible == true)
+        private void OnClickShowDNIField(object sender, EventArgs e)
         {
-            //NameField.IsVisible = false;
-            DNIField.IsVisible = false;
-        }
-        else
-        {
-            DNIField.IsVisible = true;
-            //NameField.IsVisible = false;
-        }
-
-    }
-    private void OnClickSearch(object sender, EventArgs e)
-    {
-        //if (NameField.IsVisible && NameField.Text?.Length >= 3)
-        //{
-        //    string nameSurname = NameField.Text.Trim();
-        //    var nameParts = nameSurname.Split(' ');
-
-        //    if (nameParts.Length >= 2)
-        //    {
-        //        string nombre = nameParts[0];
-        //        string apellido = string.Join(" ", nameParts.Skip(1)); // Unir el resto como apellido
-
-        //        MostrarPersona(PersonaData.GetPersonaByNameAndSurname(nombre, apellido));
-        //    }
-        //    else
-        //    {
-        //        // Manejar el caso cuando no se ingresen tanto nombre como apellido
-        //        DisplayAlert("Error", "Por favor, ingrese tanto el nombre como el apellido", "OK");
-        //    }
-        //}
-
-        if (DNIField.IsVisible && DNIField.Text?.Length >= 7)
-            if (DNIField.IsVisible && DNIField.Text?.Length >= 7)
+            if (DNIField.IsVisible == true)
             {
-                string dni = DNIField.Text;
-                Persona persona = PersonaData.GetPersonaByDNI(dni);
-                MostrarPersona(persona);
+                //NameField.IsVisible = false;
+                DNIField.IsVisible = false;
             }
-    }
+            else
+            {
+                DNIField.IsVisible = true;
+                //NameField.IsVisible = false;
+            }
 
-    private void NameField_TextChanged(object sender, TextChangedEventArgs e)
-    {
-
-        //SearchBtn.IsEnabled = (NameField.Text?.Length >= 3);
-
-    }
-
-    private void DNIField_TextChanged(object sender, TextChangedEventArgs e)
-    {
-        SearchBtn.IsEnabled = (DNIField.Text?.Length >= 7);
-    }
-
-    private void MostrarPersona(Persona persona)
-    {
-        if (persona != null)
-        {
-            DniLabel.Text = persona.Dni;
-            AnoNacimientoLabel.Text = persona.AnoNacimiento.ToString();
-            ApellidoLabel.Text = persona.Apellido;
-            NombreLabel.Text = persona.Nombre;
-            DireccionLabel.Text = persona.Direccion;
-            TipoDocLabel.Text = persona.TipoDoc;
-            SeccionLabel.Text = persona.Seccion;
-            CircuitoLabel.Text = persona.Circuito;
-            MesaLabel.Text = persona.Mesa;
-            OrdenLabel.Text = persona.Orden;
-            EscuelaLabel.Text = persona.Escuela;
-
-            PersonGrid.IsVisible = true;
-            PersonNotFound.IsVisible = false;
         }
-        else
+        private void OnClickSearch(object sender, EventArgs e)
         {
-            PersonGrid.IsVisible = false;
-            PersonNotFound.IsVisible = true;
+            //if (NameField.IsVisible && NameField.Text?.Length >= 3)
+            //{
+            //    string nameSurname = NameField.Text.Trim();
+            //    var nameParts = nameSurname.Split(' ');
+
+            //    if (nameParts.Length >= 2)
+            //    {
+            //        string nombre = nameParts[0];
+            //        string apellido = string.Join(" ", nameParts.Skip(1)); // Unir el resto como apellido
+
+            //        MostrarPersona(PersonaData.GetPersonaByNameAndSurname(nombre, apellido));
+            //    }
+            //    else
+            //    {
+            //        // Manejar el caso cuando no se ingresen tanto nombre como apellido
+            //        DisplayAlert("Error", "Por favor, ingrese tanto el nombre como el apellido", "OK");
+            //    }
+            //}
+
+            if (DNIField.IsVisible && DNIField.Text?.Length >= 7)
+                if (DNIField.IsVisible && DNIField.Text?.Length >= 7)
+                {
+                    string dni = DNIField.Text;
+                    Persona persona = PersonaData.GetPersonaByDNI(dni);
+                    MostrarPersona(persona);
+                }
+        }
+
+        //private void NameField_TextChanged(object sender, TextChangedEventArgs e)
+        //{
+
+        //    //SearchBtn.IsEnabled = (NameField.Text?.Length >= 3);
+
+        //}
+
+        private void DNIField_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            SearchBtn.IsEnabled = (DNIField.Text?.Length >= 7);
+        }
+
+        private void MostrarPersona(Persona persona)
+        {
+            if (persona != null)
+            {
+                DniLabel.Text = persona.Dni;
+                AnoNacimientoLabel.Text = persona.AnoNacimiento.ToString();
+                ApellidoLabel.Text = persona.Apellido;
+                NombreLabel.Text = persona.Nombre;
+                DireccionLabel.Text = persona.Direccion;
+                TipoDocLabel.Text = persona.TipoDoc;
+                SeccionLabel.Text = persona.Seccion;
+                CircuitoLabel.Text = persona.Circuito;
+                MesaLabel.Text = persona.Mesa;
+                OrdenLabel.Text = persona.Orden;
+                EscuelaLabel.Text = persona.Escuela;
+
+                PersonGrid.IsVisible = true;
+                PersonNotFound.IsVisible = false;
+            }
+            else
+            {
+                PersonGrid.IsVisible = false;
+                PersonNotFound.IsVisible = true;
+            }
         }
     }
-}
 }
 
 

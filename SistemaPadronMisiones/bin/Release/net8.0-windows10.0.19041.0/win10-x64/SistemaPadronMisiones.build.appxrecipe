@@ -34,6 +34,21 @@
     <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SistemaPadronMisiones.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\patoSplashScreen.scale-100.png">
+      <PackagePath>patoSplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\patoSplashScreen.scale-125.png">
+      <PackagePath>patoSplashScreen.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\patoSplashScreen.scale-150.png">
+      <PackagePath>patoSplashScreen.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\patoSplashScreen.scale-200.png">
+      <PackagePath>patoSplashScreen.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\patoSplashScreen.scale-400.png">
+      <PackagePath>patoSplashScreen.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>

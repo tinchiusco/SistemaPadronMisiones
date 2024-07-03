@@ -1,5 +1,4 @@
-﻿using Microsoft.Data.SqlClient;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 using SistemaPadronMisiones.Entities;
 using System.Reflection;
 

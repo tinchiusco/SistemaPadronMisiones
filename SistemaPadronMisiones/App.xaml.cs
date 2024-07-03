@@ -1,9 +1,4 @@
-﻿using System.Reflection;
-using Newtonsoft.Json;
-using Microsoft.Maui.Controls;
-using SistemaPadronMisiones.Entities;
-
-namespace SistemaPadronMisiones;
+﻿namespace SistemaPadronMisiones;
 
 
 public partial class App : Application

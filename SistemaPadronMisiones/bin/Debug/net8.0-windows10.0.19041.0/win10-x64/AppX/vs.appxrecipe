@@ -19,7 +19,7 @@
     <WindowsSdkPath>
     </WindowsSdkPath>
     <LayoutDir>E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>19079297B595F82B3411DADC59757F3940B1CA3E049CF49F1DE529C3BEB4B569</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>94F50FCD6B980C846C3309BCC4CEA00936699C49C02BE53A51942535571268D2</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.sistemapadronmisiones_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.sistemapadronmisiones_9zz4h110yvjzm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.sistemapadronmisiones</RegisteredPackageID>
@@ -30,45 +30,45 @@
     <AppXManifest Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-06-30T19:09:39.673</Modified>
+      <Modified>2024-07-01T02:15:44.344</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-06-30T19:09:39.225</Modified>
+      <Modified>2024-07-01T02:15:43.954</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SistemaPadronMisiones.runtimeconfig.json">
       <PackagePath>SistemaPadronMisiones.runtimeconfig.json</PackagePath>
-      <Modified>2024-06-30T06:36:13.694</Modified>
+      <Modified>2024-07-01T02:15:43.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SistemaPadronMisiones.dll">
       <PackagePath>SistemaPadronMisiones.dll</PackagePath>
-      <Modified>2024-06-30T19:09:35.937</Modified>
+      <Modified>2024-07-01T02:15:41.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>SistemaPadronMisiones.exe</PackagePath>
-      <Modified>2024-06-30T19:09:36.023</Modified>
+      <Modified>2024-07-01T02:15:41.409</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
-      <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-06-29T04:30:31.354</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\misiones_entSplashScreen.scale-100.png">
+      <PackagePath>misiones_entSplashScreen.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:36.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
-      <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-06-29T04:30:31.394</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\misiones_entSplashScreen.scale-125.png">
+      <PackagePath>misiones_entSplashScreen.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:36.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
-      <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-06-29T04:30:31.430</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\misiones_entSplashScreen.scale-150.png">
+      <PackagePath>misiones_entSplashScreen.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:36.597</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
-      <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-06-29T04:30:31.490</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\misiones_entSplashScreen.scale-200.png">
+      <PackagePath>misiones_entSplashScreen.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:36.655</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
-      <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-06-29T04:30:31.719</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\misiones_entSplashScreen.scale-400.png">
+      <PackagePath>misiones_entSplashScreen.scale-400.png</PackagePath>
+      <Modified>2024-07-01T02:15:36.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -78,217 +78,401 @@
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2024-06-27T19:43:18.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
-      <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.337</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.337</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.337</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.337</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.337</Modified>
+      <Modified>2024-07-01T02:15:40.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.342</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.339</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.337</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.337</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.536</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.337</Modified>
+      <Modified>2024-07-01T02:15:40.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
-      <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.337</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_logo.scale-100.png">
-      <PackagePath>misiones_logo.scale-100.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_logo.scale-125.png">
-      <PackagePath>misiones_logo.scale-125.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_logo.scale-150.png">
-      <PackagePath>misiones_logo.scale-150.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.538</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_logo.scale-200.png">
-      <PackagePath>misiones_logo.scale-200.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.538</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.539</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+      <PackagePath>appicon.ico</PackagePath>
+      <Modified>2024-07-01T02:15:40.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLargeTile.scale-400.png">
+      <PackagePath>misiones_entLargeTile.scale-400.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLargeTile.scale-200.png">
+      <PackagePath>misiones_entLargeTile.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLargeTile.scale-150.png">
+      <PackagePath>misiones_entLargeTile.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLargeTile.scale-125.png">
+      <PackagePath>misiones_entLargeTile.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLargeTile.scale-100.png">
+      <PackagePath>misiones_entLargeTile.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entWideTile.scale-400.png">
+      <PackagePath>misiones_entWideTile.scale-400.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entWideTile.scale-200.png">
+      <PackagePath>misiones_entWideTile.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entWideTile.scale-150.png">
+      <PackagePath>misiones_entWideTile.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entWideTile.scale-125.png">
+      <PackagePath>misiones_entWideTile.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entWideTile.scale-100.png">
+      <PackagePath>misiones_entWideTile.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entMediumTile.scale-400.png">
+      <PackagePath>misiones_entMediumTile.scale-400.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entMediumTile.scale-200.png">
+      <PackagePath>misiones_entMediumTile.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.545</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entMediumTile.scale-150.png">
+      <PackagePath>misiones_entMediumTile.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entMediumTile.scale-125.png">
+      <PackagePath>misiones_entMediumTile.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entMediumTile.scale-100.png">
+      <PackagePath>misiones_entMediumTile.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entSmallTile.scale-400.png">
+      <PackagePath>misiones_entSmallTile.scale-400.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entSmallTile.scale-200.png">
+      <PackagePath>misiones_entSmallTile.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entSmallTile.scale-150.png">
+      <PackagePath>misiones_entSmallTile.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entSmallTile.scale-125.png">
+      <PackagePath>misiones_entSmallTile.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entSmallTile.scale-100.png">
+      <PackagePath>misiones_entSmallTile.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entStoreLogo.scale-400.png">
+      <PackagePath>misiones_entStoreLogo.scale-400.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entStoreLogo.scale-200.png">
+      <PackagePath>misiones_entStoreLogo.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entStoreLogo.scale-150.png">
+      <PackagePath>misiones_entStoreLogo.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.546</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entStoreLogo.scale-125.png">
+      <PackagePath>misiones_entStoreLogo.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entStoreLogo.scale-100.png">
+      <PackagePath>misiones_entStoreLogo.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>misiones_entLogo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>misiones_entLogo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>misiones_entLogo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>misiones_entLogo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>misiones_entLogo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>misiones_entLogo.altform-unplated_targetsize-256.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>misiones_entLogo.altform-unplated_targetsize-48.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>misiones_entLogo.altform-unplated_targetsize-32.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.547</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>misiones_entLogo.altform-unplated_targetsize-24.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>misiones_entLogo.altform-unplated_targetsize-16.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.targetsize-256.png">
+      <PackagePath>misiones_entLogo.targetsize-256.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.targetsize-48.png">
+      <PackagePath>misiones_entLogo.targetsize-48.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.targetsize-32.png">
+      <PackagePath>misiones_entLogo.targetsize-32.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.targetsize-24.png">
+      <PackagePath>misiones_entLogo.targetsize-24.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.targetsize-16.png">
+      <PackagePath>misiones_entLogo.targetsize-16.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.scale-400.png">
+      <PackagePath>misiones_entLogo.scale-400.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.scale-200.png">
+      <PackagePath>misiones_entLogo.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.scale-150.png">
+      <PackagePath>misiones_entLogo.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.scale-125.png">
+      <PackagePath>misiones_entLogo.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_entLogo.scale-100.png">
+      <PackagePath>misiones_entLogo.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_ent.ico">
+      <PackagePath>misiones_ent.ico</PackagePath>
+      <Modified>2024-07-01T02:15:40.549</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_logo.scale-400.png">
       <PackagePath>misiones_logo.scale-400.png</PackagePath>
-      <Modified>2024-06-30T18:55:22.345</Modified>
+      <Modified>2024-07-01T02:15:40.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_logo.scale-200.png">
+      <PackagePath>misiones_logo.scale-200.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_logo.scale-150.png">
+      <PackagePath>misiones_logo.scale-150.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_logo.scale-125.png">
+      <PackagePath>misiones_logo.scale-125.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.551</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\misiones_logo.scale-100.png">
+      <PackagePath>misiones_logo.scale-100.png</PackagePath>
+      <Modified>2024-07-01T02:15:40.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\SistemaPadronMisiones.deps.json">
       <PackagePath>SistemaPadronMisiones.deps.json</PackagePath>
-      <Modified>2024-06-30T19:09:38.526</Modified>
+      <Modified>2024-07-01T02:15:42.970</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

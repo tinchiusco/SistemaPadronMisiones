@@ -48,22 +48,16 @@
 		<!-- App Icon -->
 		<MauiIcon Include="Resources\AppIcon\appicon.png" ForegroundFile="Resources\AppIcon\appicon.png" Color="#512BD4" />
 		<MauiIcon Include="Resources\Splash\misiones_ent.png">
-		  <Color>#512BD4</Color>
+		  <Color>#272F59</Color>
 		  <ForegroundFile>Resources\AppIcon\appicon.png</ForegroundFile>
 		</MauiIcon>
 
 		<!-- Splash Screen -->
+		<MauiSplashScreen Include="Resources\Splash\pato.png" Color="#272F59" Resize="True" BaseSize="128,128" />
 		
-
-		<MauiSplash Include ="Resources\Splash\misiones_ent.png ">
-			<background-color>#FFFFFF</background-color>
-			<duration>3000</duration>
-			<!-- Duración en milisegundos -->
-		</MauiSplash>
-
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\misiones_logo.png" Resize="True" BaseSize="300,185" />
+		<MauiImage Update="Resources\Images\misiones_logo.png" Resize="True" BaseSize="300,185"  />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
