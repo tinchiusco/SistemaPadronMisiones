@@ -1,6 +1,7 @@
 ﻿
 using SistemaPadronMisiones.DataBussiness;
 using SistemaPadronMisiones.Entities;
+using System.Runtime.CompilerServices;
 
 namespace SistemaPadronMisiones
 {
@@ -25,8 +26,8 @@ namespace SistemaPadronMisiones
     {
         "El 5% de la poblacion en Misiones no sabe leer ni escribir.",
         "En Misiones hay 58.000 pesonas analfabetas.",
-        "En provincia 524.000 personas estan por debajo de la linea de pobreza.",
-        "Hay 110.000 pesonas indigentes en Misiones.",
+        "En la hay provincia 524.000 personas estan por debajo de la linea de pobreza.",
+        "Hay 110.000 personas indigentes en Misiones.",
         "El desempleo afecta al 12% de la población activa en Misiones.",
         "Solo el 30% de los jóvenes misioneros acceden a educación universitaria.",
         "Más de 70.000 personas en Misiones viven en condiciones de hacinamiento.",
@@ -57,58 +58,55 @@ namespace SistemaPadronMisiones
 
         }
 
-        //private void OnClickShowNameField(object sender, EventArgs e)
-        //{
+        private void OnClickShowNameField(object sender, EventArgs e)
+        {
 
 
-        //    //if (NameField.IsVisible == true)
-        //    //{
-        //    //    //NameField.IsVisible = false;
-        //    //    DNIField.IsVisible = false;
+            if (NameField.IsVisible == true)
+            {
+                NameField.IsVisible = false;
+                DNIField.IsVisible = false;
+                
 
-        //    //}
-        //    //else
-        //    //{
-        //    //    //NameField.IsVisible = true;
-        //    //    DNIField.IsVisible = false;
-        //    //}
+            }
+            else
+            {
+                NameField.IsVisible = true;
+                DNIField.IsVisible = false;
+            }
 
 
-        //}
+        }
         private void OnClickShowDNIField(object sender, EventArgs e)
         {
             if (DNIField.IsVisible == true)
             {
-                //NameField.IsVisible = false;
+                NameField.IsVisible = false;
                 DNIField.IsVisible = false;
+                PersonasGrid.Clear();
             }
             else
             {
                 DNIField.IsVisible = true;
-                //NameField.IsVisible = false;
+                NameField.IsVisible = false;
             }
 
         }
         private void OnClickSearch(object sender, EventArgs e)
         {
-            //if (NameField.IsVisible && NameField.Text?.Length >= 3)
-            //{
-            //    string nameSurname = NameField.Text.Trim();
-            //    var nameParts = nameSurname.Split(' ');
+            if (NameField.IsVisible && !string.IsNullOrWhiteSpace(NameField.Text) && NameField.Text.Length > 4)
+            {
+                var personasCoincidentes = PersonaData.GetPersonaByNameAndSurname(NameField.Text);
 
-            //    if (nameParts.Length >= 2)
-            //    {
-            //        string nombre = nameParts[0];
-            //        string apellido = string.Join(" ", nameParts.Skip(1)); // Unir el resto como apellido
-
-            //        MostrarPersona(PersonaData.GetPersonaByNameAndSurname(nombre, apellido));
-            //    }
-            //    else
-            //    {
-            //        // Manejar el caso cuando no se ingresen tanto nombre como apellido
-            //        DisplayAlert("Error", "Por favor, ingrese tanto el nombre como el apellido", "OK");
-            //    }
-            //}
+                if (personasCoincidentes.Count > 30)
+                {
+                    DisplayAlert("Búsqueda muy grande", "Por favor, ingrese tanto el nombre como el apellido para acortar la búsqueda", "OK");
+                }
+                else
+                {
+                    MostrarPersonas(personasCoincidentes);
+                } 
+            }
 
             if (DNIField.IsVisible && DNIField.Text?.Length >= 7)
                 if (DNIField.IsVisible && DNIField.Text?.Length >= 7)
@@ -116,15 +114,41 @@ namespace SistemaPadronMisiones
                     string dni = DNIField.Text;
                     Persona persona = PersonaData.GetPersonaByDNI(dni);
                     MostrarPersona(persona);
+                    PersonasGrid.Clear();
                 }
         }
+        private void OnEnviarClicked(object sender, EventArgs e)
+        {
+            // Obtener los datos de los labels
+            string dni = DniLabel.Text;
+            string anoNacimiento = AnoNacimientoLabel.Text;
+            string apellido = ApellidoLabel.Text;
+            string nombre = NombreLabel.Text;
+            string direccion = DireccionLabel.Text;
+            string tipoDoc = TipoDocLabel.Text;
+            string seccion = SeccionLabel.Text;
+            string circuito = CircuitoLabel.Text;
+            string mesa = MesaLabel.Text;
+            string orden = OrdenLabel.Text;
+            string escuela = EscuelaLabel.Text;
 
-        //private void NameField_TextChanged(object sender, TextChangedEventArgs e)
-        //{
+            // Aquí puedes definir lo que quieras hacer con estos datos
+            // Por ejemplo, copiarlos al portapapeles
+            string datos = $"DNI: {dni}\nFecha Nac: {anoNacimiento}\nApellido: {apellido}\nNombre: {nombre}\nDirección: {direccion}\nTipo Doc: {tipoDoc}\nSección: {seccion}\nCircuito: {circuito}\nMesa: {mesa}\nOrden: {orden}\nEscuela: {escuela}";
 
-        //    //SearchBtn.IsEnabled = (NameField.Text?.Length >= 3);
+            // Copiar al portapapeles (en plataformas que soporten esta función)
+            Clipboard.SetTextAsync(datos);
 
-        //}
+            // Mostrar un mensaje de confirmación
+            DisplayAlert("Datos copiados", "Los datos han sido copiados al portapapeles.", "OK");
+        }
+
+        private void NameField_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+            SearchBtn.IsEnabled = (NameField.Text?.Length >= 5);
+
+        }
 
         private void DNIField_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -155,6 +179,52 @@ namespace SistemaPadronMisiones
                 PersonGrid.IsVisible = false;
                 PersonNotFound.IsVisible = true;
             }
+
+        }
+
+        
+        private void MostrarPersonas(List<Persona> personas) {
+            //limpieza del grid en cada busqueda para evitar superposicion
+            PersonasGrid.Clear(); 
+            PersonasGrid.RowDefinitions.Clear();
+            
+
+            //habilitado row 1 por si se activan los nombres de columnas
+            int row = 0;
+
+
+            foreach (var persona in personas)
+            {
+                PersonasGrid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+
+                var nombreLabel = new Label { Text = persona.Nombre };
+                PersonasGrid.Children.Add(nombreLabel);
+                Grid.SetRow(nombreLabel, row);
+                Grid.SetColumn(nombreLabel, 0);
+
+                var apellidoLabel = new Label { Text = persona.Apellido };
+                PersonasGrid.Children.Add(apellidoLabel);
+                Grid.SetRow(apellidoLabel, row);
+                Grid.SetColumn(apellidoLabel, 1);
+
+                var DNILabel = new Label { Text = persona.Dni };
+                PersonasGrid.Children.Add(DNILabel);
+                Grid.SetRow(DNILabel, row);
+                Grid.SetColumn(DNILabel, 2);
+
+                var dataButton = new Button { Text = "Ver"};
+                dataButton.Clicked += (s, e) => MostrarPersona(persona);
+                PersonasGrid.Children.Add(dataButton);
+                Grid.SetRow(dataButton, row);
+                Grid.SetColumn(dataButton, 3);
+                row++;
+                
+
+
+
+            }
+            PersonasGrid.IsVisible = true;
+            PersonNotFound.IsVisible = row<2;
         }
     }
 }

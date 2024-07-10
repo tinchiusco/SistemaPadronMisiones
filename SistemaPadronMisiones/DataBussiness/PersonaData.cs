@@ -1,6 +1,9 @@
-﻿using Newtonsoft.Json;
+﻿
+using Newtonsoft.Json;
 using SistemaPadronMisiones.Entities;
+using System.Globalization;
 using System.Reflection;
+using System.Text;
 
 
 
@@ -34,7 +37,7 @@ namespace SistemaPadronMisiones.DataBussiness
                 Console.WriteLine(name);
             }
 
-            using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+            using (Stream? stream = assembly.GetManifestResourceStream(resourceName))
             {
                 if (stream == null)
                 {
@@ -44,36 +47,79 @@ namespace SistemaPadronMisiones.DataBussiness
                 using (StreamReader reader = new StreamReader(stream))
                 {
                     string json = reader.ReadToEnd();
-                    return JsonConvert.DeserializeObject<List<Persona>>(json);
+                    var personas = JsonConvert.DeserializeObject<List<Persona>>(json);
+
+                    // Si la deserialización falla y retorna null, lanzar una excepción
+                    if (personas == null)
+                    {
+                        throw new InvalidOperationException("No se pudo deserializar el JSON a una lista de Persona.");
+                    }
+
+                    return personas;
                 }
             }
         }
 
         public static Persona GetPersonaByDNI(string dni)
         {
-            var persona = _personas.FirstOrDefault(p => p.Dni == dni);
+            var persona = _personas.FirstOrDefault(p => p.Dni == dni.Trim());
             if (persona != null)
             {
                 return new Persona(persona.Id, persona.Dni, persona.AnoNacimiento, persona.Apellido, persona.Nombre, persona.Direccion, persona.TipoDoc, persona.Seccion, persona.Circuito, persona.Mesa, persona.Orden, persona.Escuela);
             }
-            return null;
+            return new Persona();
         }
-        public static Persona GetPersonaByNameAndSurname(string nombre, string apellido)
+        public static List<Persona> GetPersonaByNameAndSurname(string nombreIngresado)
         {
-            // Asegurarse de que nombre y apellido no contienen espacios adicionales
-            nombre = nombre.Trim();
-            apellido = apellido.Trim();
+            // Separar el nombre ingresado por espacios
+            string[] nombreIngresadoSeparado = nombreIngresado
+                .Split(" ")
+                .Select(part => RemoveAccents(part).ToLower())
+                .ToArray();
 
-            // Comparar usando StringComparison.OrdinalIgnoreCase para ignorar mayúsculas y minúsculas
-            var persona = _personas.FirstOrDefault(p => p.Nombre.Equals(nombre, StringComparison.OrdinalIgnoreCase)
-                                                 && p.Apellido.Equals(apellido, StringComparison.OrdinalIgnoreCase));
-            if (persona != null)
+            // Crear una lista para almacenar las personas coincidentes
+            List<Persona> listaPersonasElegidas = new List<Persona>();
+
+            // Recorrer la lista de personas y buscar coincidencias
+            foreach (Persona objetoPersona in _personas)
             {
-                return new Persona(persona.Id, persona.Dni, persona.AnoNacimiento, persona.Apellido, persona.Nombre, persona.Direccion, persona.TipoDoc, persona.Seccion, persona.Circuito, persona.Mesa, persona.Orden, persona.Escuela);
+                // Verificar si alguna parte del nombre ingresado está en el nombre o apellido de la persona
+                bool todasCoinciden = nombreIngresadoSeparado.All(n =>
+            objetoPersona.Nombre.Contains(n, StringComparison.OrdinalIgnoreCase) ||
+            objetoPersona.Apellido.Contains(n, StringComparison.OrdinalIgnoreCase));
+
+                // Si hay coincidencia, agregar a la lista de personas elegidas
+                if (todasCoinciden)
+                {
+                    listaPersonasElegidas.Add(objetoPersona);
+                }
             }
-            return null;
+            
+            // Devolver la lista de personas que coinciden
+            return listaPersonasElegidas;
+        }
+        private static string RemoveAccents(string input)
+        {
+            if (string.IsNullOrEmpty(input))
+                return input;
+
+            var normalizedString = input.Normalize(NormalizationForm.FormD);
+            var stringBuilder = new StringBuilder();
+
+            foreach (var c in normalizedString)
+            {
+                var unicodeCategory = CharUnicodeInfo.GetUnicodeCategory(c);
+                if (unicodeCategory != UnicodeCategory.NonSpacingMark)
+                {
+                    stringBuilder.Append(c);
+                }
+            }
+
+            return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
         }
     }
+}
+    
 
     //public static Persona GetPersonaByDNI(string dni)
     //{
@@ -110,5 +156,5 @@ namespace SistemaPadronMisiones.DataBussiness
     //        return null;
     //    }
     //}
-}
+
 

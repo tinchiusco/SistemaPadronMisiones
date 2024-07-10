@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaPadronMisiones")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+686966fcb2354960b6814ee8721e5c0d51744e7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+49885d67700bca9983ae9c4ad0d667d606c0b251")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaPadronMisiones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaPadronMisiones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

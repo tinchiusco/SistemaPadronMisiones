@@ -11,10 +11,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <permission android:name="com.companyname.sistemapadronmisiones.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.sistemapadronmisiones.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-  <application android:name="crc645ed0d22236d6be8a.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="SistemaPadronMisiones" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
-    <activity android:name="crc648316b0a9aa8cfd61.BrowserTabActivity" android:exported="true" />
-    <activity android:name="microsoft.identity.client.AuthenticationActivity" android:exported="true" />
-    <activity android:name="crc64ed1888fb4925e3b7.AuthenticationAgentActivity" android:configChanges="orientation|screenSize" android:exported="false" />
+  <application android:name="crc645ed0d22236d6be8a.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="Padron de Misiones" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
     <receiver android:name="crc640a8d9a12ddbf2cf2.EnergySaverBroadcastReceiver" android:enabled="true" android:exported="false" android:label="Essentials Energy Saver Broadcast Receiver" />
     <activity android:name="crc645ed0d22236d6be8a.MainActivity" android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:launchMode="singleTop" android:theme="@style/Maui.SplashTheme">
       <intent-filter>

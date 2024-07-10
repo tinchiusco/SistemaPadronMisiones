@@ -1,9 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <BundleResource Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\dotnet_bot.png" />
-    <BundleResource Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\misiones_logo@3x.png" />
-    <BundleResource Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\misiones_logo@2x.png" />
-    <BundleResource Include="E:\SistemaPadronMisiones\SistemaPadronMisionesApp\SistemaPadronMisiones\obj\Release\net8.0-maccatalyst\resizetizer\r\misiones_logo.png" />
-  </ItemGroup>
+  <ItemGroup />
 </Project>

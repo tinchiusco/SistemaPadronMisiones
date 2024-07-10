@@ -19,12 +19,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="misiones_ent_695A462CEE87020F26357BBF0F9AF47C5BB6D0CED77EB5021EE6DB25D43F64C1.png" translatesAutoresizingMaskIntoConstraints="NO" id="aT4-1l-d9a">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pato_4AB63BCD1E21287B09FFF0AF0826437C3E57FEEE4D6AEF897292603DFABA0DCB.png" translatesAutoresizingMaskIntoConstraints="NO" id="aT4-1l-d9a">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.3176471" green="0.1686275" blue="0.8313726" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.1529412" green="0.1843137" blue="0.3490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -33,6 +33,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="misiones_ent_695A462CEE87020F26357BBF0F9AF47C5BB6D0CED77EB5021EE6DB25D43F64C1.png" />
+        <image name="pato_4AB63BCD1E21287B09FFF0AF0826437C3E57FEEE4D6AEF897292603DFABA0DCB.png" />
     </resources>
 </document>

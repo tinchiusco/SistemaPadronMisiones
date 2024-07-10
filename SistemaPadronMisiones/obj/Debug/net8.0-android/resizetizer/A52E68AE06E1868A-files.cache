@@ -1,8 +1,8 @@
 ﻿obj\Debug\net8.0-android\resizetizer\sp\drawable\maui_splash_image.xml
-obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\misiones_ent.png
-obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\misiones_ent.png
+obj\Debug\net8.0-android\resizetizer\sp\drawable-hdpi\pato.png
+obj\Debug\net8.0-android\resizetizer\sp\drawable-mdpi\pato.png
 obj\Debug\net8.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
-obj\Debug\net8.0-android\resizetizer\sp\drawable-xhdpi\misiones_ent.png
-obj\Debug\net8.0-android\resizetizer\sp\drawable-xxhdpi\misiones_ent.png
-obj\Debug\net8.0-android\resizetizer\sp\drawable-xxxhdpi\misiones_ent.png
+obj\Debug\net8.0-android\resizetizer\sp\drawable-xhdpi\pato.png
+obj\Debug\net8.0-android\resizetizer\sp\drawable-xxhdpi\pato.png
+obj\Debug\net8.0-android\resizetizer\sp\drawable-xxxhdpi\pato.png
 obj\Debug\net8.0-android\resizetizer\sp\values\maui_colors.xml

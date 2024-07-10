@@ -1,4 +1,8 @@
-﻿namespace SistemaPadronMisiones.Entities
+﻿using static System.Collections.Specialized.BitVector32;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Net;
+
+namespace SistemaPadronMisiones.Entities
 {
 
     public class Persona
@@ -17,7 +21,19 @@
         private string _escuela;
 
 
-        public Persona() { }
+        public Persona() {
+            this._dni = string.Empty;
+            this._anoNacimiento = 0;
+            this._apellido = string.Empty;
+            this._nombre = string.Empty;
+            this._direccion = string.Empty;
+            this._tipoDoc = string.Empty;
+            this._seccion = string.Empty;
+            this._circuito = string.Empty;
+            this._mesa = string.Empty;
+            this._orden = string.Empty;
+            this._escuela = string.Empty;
+        }
 
         public Persona(string dni, int anoNacimiento, string apellido, string nombre, string direccion, string tipoDoc, string seccion,
             string circuito, string mesa, string orden, string escuela)

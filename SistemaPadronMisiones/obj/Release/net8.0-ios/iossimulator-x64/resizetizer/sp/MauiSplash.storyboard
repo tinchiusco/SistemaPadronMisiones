@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pato_FF6F854739767A919A18C83019D8EF1437708F70F9799BAD2093600C1FCC6382.png" translatesAutoresizingMaskIntoConstraints="NO" id="aT4-1l-d9a">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pato_BCC4CEC56AA946462B073AEADB9935EB5D43851824C7D5562DADC65F7454FA51.png" translatesAutoresizingMaskIntoConstraints="NO" id="aT4-1l-d9a">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -33,6 +33,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="pato_FF6F854739767A919A18C83019D8EF1437708F70F9799BAD2093600C1FCC6382.png" />
+        <image name="pato_BCC4CEC56AA946462B073AEADB9935EB5D43851824C7D5562DADC65F7454FA51.png" />
     </resources>
 </document>
