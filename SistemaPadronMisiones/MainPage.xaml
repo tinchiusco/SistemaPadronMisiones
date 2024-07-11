@@ -12,6 +12,10 @@
             HorizontalOptions="Center"
             VerticalOptions="Center" />
 
+            
+            
+            
+            
             <Image
                 Source="misiones_logo.png"
                 HeightRequest="250"
@@ -19,10 +23,20 @@
                 SemanticProperties.Description="Mapa de la provincia de Misiones" />
             
 
+            
+            
+            
             <Label
                 Text="Padrón Misiones"
                 Style="{StaticResource Headline}"
                 SemanticProperties.HeadingLevel="Level1" />
+
+
+            <Label
+    Text="Buscar una persona: "
+    Style="{StaticResource SubHeadline}"
+    SemanticProperties.HeadingLevel="Level2"
+    SemanticProperties.Description="Ingrese DNI de la persona a buscar" />
 
             <Label
                 Text="Buscar una persona: "
